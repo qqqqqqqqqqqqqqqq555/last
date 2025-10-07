@@ -93,7 +93,7 @@ export function Board({
               >
                 {color ? (
                   <div
-                    className="absolute inset-0 m-[2px] rounded-sm opacity-90"
+                    className="absolute inset-0 opacity-90"
                     style={{
                       backgroundColor: color,
                       backgroundImage: texture ? `url(${texture})` : undefined,
